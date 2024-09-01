@@ -2,7 +2,7 @@
 Implementing fingerprinting in the Apache web server
 
 ## Motivation
-To demonstrate the effectiveness and improve adoption of timing and fingerprint analysis for detection of malicious web clients and proxies by implemented collection of relevant metadata in the Apache web server, especially addressing current challenges such as AitM proxies and residential proxies.
+To demonstrate the effectiveness and improve adoption of timing and fingerprint analysis for detection of malicious web clients and proxies by implementing collection of relevant metadata in the Apache web server. This capability is designed to counter current challenges such as AitM proxies, residential proxies, and compromised SOHO routers/IOT devices.
 
 ## Tasks
   - Expose TLS RTT in mod_ssl using recently added SSL_get_handshake_rtt function
