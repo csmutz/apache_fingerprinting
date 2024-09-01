@@ -15,8 +15,8 @@ To demonstrate the effectiveness and improve adoption of timing and fingerprint 
   - HTTP RTT via server-side scripts (probably could be an apache module, but likely will be server-side scripting)
 
 ## Related Work
-  - gait: zeek extension by Sandia National Labs that implements similar fingerprinting. The goal is to expose similar metadata in the web server.
-  - ja4: Widely adopted tool for fingerprinting. While we may differ in approach (focus on exposing metadata vs. creating a standardized format for sharing), there will be significant overlap in attributes collected.
+  - gait: zeek extension by Sandia National Labs that implements similar fingerprinting. The goal is to expose similar metadata in the web server. https://github.com/sandialabs/gait/
+  - ja4: Widely adopted tool for fingerprinting. While we may differ in approach (focus on exposing metadata vs. creating a standardized format for sharing), there will be significant overlap in attributes collected. https://github.com/FoxIO-LLC/ja4
 
 ## Participation
 I would love to mentor a high school or undergrad student in parts of this project. This project involved understanding some really important concepts in network security. The developed technologies could be used as a testbed for research and the experience and the domain knowledge would help equip a student for research in the area of proxy detection.
