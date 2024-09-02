@@ -11,6 +11,7 @@ To demonstrate the effectiveness and improve adoption of timing and fingerprint 
   - Expose TLS Fingerprint data in mod_ssl (ex. data needed to generate ja3/ja4)
     - Repo here: https://github.com/csmutz/apache_tls_fingerprint
   - Expose TCP fingerprinting and RTT data from kernel via TCP_INFO
+    - Repo here: https://github.com/csmutz/apache_tcp_info
     - Rules or databased to block connections from known SOHO router/IOT devices?
   - HTTP fingerprinting of browsers (header existance, order, capitalization, values, etc)
     - Start with module that implements simple header order, capitalizaiton digest
