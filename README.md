@@ -26,7 +26,6 @@ To demonstrate the effectiveness and improve adoption of timing and fingerprint 
 ## Participation
 This is a personal hobby project (not sponsor by my day job)--so it may progress slowely. I would love to mentor a student or early career professional parts of this project who wants to learn the relevant technologies as an extracuricular project. This project is basically an exercise in C coding and understand various API (OpenSSL, TCP_INFO/kernel, apache constructs, etc) but it also involves understanding some really important concepts in network security. Experience in C coding and basic networking would be prefered. The developed technologies could be used as a testbed for research and the experience and the domain knowledge would help equip a student for research in the area of proxy detection.
 
-I could really use some coaching/help on use of TCP_INFO in cross-platform platform way, especially how to cleanly access the additional attributes tracked by the kernel but not exposed in the default getsockopt TCP_INFO struct. 
 
 
 
