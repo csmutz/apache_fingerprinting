@@ -11,7 +11,7 @@ To demonstrate the effectiveness and improve adoption of timing and fingerprint 
   - Expose TLS Fingerprint data in mod_ssl (ex. data needed to generate ja3/ja4)
     - Finished, this was merged into apache: https://github.com/apache/httpd/commit/e9915b2bdb47a0dca4daa144a41a3c23edc3a59a
     - Repo here: https://github.com/csmutz/apache_tls_fingerprint
-  - Add TLS Clienthello timestmap for hello delay calculation
+  - Expose TLS Clienthello timestmap for hello delay calculation
   - Expose TCP fingerprinting and RTT data from kernel via TCP_INFO
     - Repo here: https://github.com/csmutz/apache_tcp_info
     - When a solid database becomes available, integrate to label clients and/or block connections
