@@ -11,13 +11,13 @@ To demonstrate the effectiveness and improve adoption of timing and fingerprint 
   - Expose TLS Fingerprint data in mod_ssl (ex. data needed to generate ja3/ja4)
     - Finished, this was merged into apache: https://github.com/apache/httpd/commit/e9915b2bdb47a0dca4daa144a41a3c23edc3a59a
     - Repo here: https://github.com/csmutz/apache_tls_fingerprint
+  - Add TLS Clienthello timestmap for hello delay calculation
   - Expose TCP fingerprinting and RTT data from kernel via TCP_INFO
     - Repo here: https://github.com/csmutz/apache_tcp_info
-    - Rules or databased to block connections from known SOHO router/IOT devices?
+    - When a solid database becomes available, integrate to label clients and/or block connections
   - HTTP fingerprinting of browsers (header existance, order, capitalization, values, etc)
-    - Start with module that implements simple header order, capitalizaiton digest
-    - Possible database or ML model, possibly via modsecurity style rules or integration of yara rules, of various browsers and modifications indicative of proxy types
-  - HTTP RTT via server-side scripts (probably could be an apache module, but likely will be server-side scripting)
+    - Implement as standards/implementations become available 
+  - HTTP RTT via server-side scripts (probably could be an apache module, but likely will be server-side scripting) 
 
 ## Related Work
   - gait: zeek extension by Sandia National Labs that implements similar fingerprinting. The goal is to expose similar metadata in the web server. https://github.com/sandialabs/gait/
