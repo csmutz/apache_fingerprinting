@@ -13,7 +13,8 @@ To demonstrate the effectiveness and improve adoption of timing and fingerprint 
     - Repo here: https://github.com/csmutz/apache_tls_fingerprint
   - Expose TLS Clienthello timestmap for hello delay calculation
   - Expose TCP fingerprinting and RTT data from kernel via TCP_INFO
-    - Repo here: https://github.com/csmutz/apache_tcp_info
+    - Repo here: https://github.com/csmutz/mod_tcpfingerprint
+    - Finished: This is ready for broader testing and deployment
     - When a solid database becomes available, integrate to label clients and/or block connections
   - HTTP fingerprinting of browsers (header existance, order, capitalization, values, etc)
     - Implement as standards/implementations become available 
